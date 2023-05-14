@@ -1,5 +1,7 @@
+import Layout from "../Layout/Layout";
+
 const App = () => {
-  return <h1>Holi 🤩</h1>;
+  return <Layout />;
 };
 
 export default App;
