@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PageStyled from "../PageStyled";
 
-const HomePage = (): JSX.Element => {
+const PlanetsPage = (): JSX.Element => {
   return (
     <PageStyled>
       <h1 className="main-title">My Planets 🪐 </h1>
@@ -21,4 +21,4 @@ const HomePage = (): JSX.Element => {
   );
 };
 
-export default HomePage;
+export default PlanetsPage;

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import paths from "../../routers/paths";
 import HeaderStyled from "./HeaderStyled";
 
 const Header = (): JSX.Element => {
@@ -14,12 +15,12 @@ const Header = (): JSX.Element => {
       <nav className="navigation">
         <ul className="links">
           <li>
-            <NavLink to="/planets" className="link">
+            <NavLink to={paths.planets} className="link">
               Planets
             </NavLink>
           </li>
           <li>
-            <NavLink to="/create-planet" className="link">
+            <NavLink to={paths.create} className="link">
               Create
             </NavLink>
           </li>
