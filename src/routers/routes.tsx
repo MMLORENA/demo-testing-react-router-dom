@@ -11,7 +11,7 @@ const routes: RouteObject[] = [
     path: paths.root,
     element: <App />,
     children: [
-      { index: true, element: <Navigate to={paths.planets} /> },
+      { index: true, element: <Navigate to={paths.planets} replace /> },
       { path: paths.planets, element: <PlanetsPage /> },
       { path: paths.create, element: <CreatePlanetPage /> },
       { path: `${paths.planet}/:id`, element: <PlanetDetailPage /> },

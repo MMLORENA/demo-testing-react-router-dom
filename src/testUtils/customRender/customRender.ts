@@ -1,5 +1,5 @@
 import { render, RenderOptions } from "@testing-library/react";
-import WrapperWithProviders from "./WrapperWithProviders";
+import WrapperWithProviders from "../Wrappers/WrapperWithProviders";
 
 const customRender = (
   ui: React.ReactElement,

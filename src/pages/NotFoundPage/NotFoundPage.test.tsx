@@ -1,5 +1,5 @@
 import { screen } from "@testing-library/dom";
-import customRender from "../../testUtils/customRender";
+import customRender from "../../testUtils/customRender/customRender";
 import NotFoundPage from "./NotFoundPage";
 
 describe("Given a NotFoundPage", () => {
